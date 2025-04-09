@@ -33,12 +33,13 @@ const GetIP = () => {
         if (ip) {
             fetchGeoInfo();
         }
+
     })
 
   return (
     <div className='GetIP'>
         <h1>Your IP Address</h1>
-        <p>{ip}</p>
+        <p>IPv4: {ip}</p>
         <h2>Geo Information</h2>
         <p>City: {geoInfo.city}</p>
         <p>Region: {geoInfo.region}</p>
