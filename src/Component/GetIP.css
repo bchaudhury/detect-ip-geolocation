@@ -1,19 +1,44 @@
 .GetIP{
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #d4c890, #c9d4df);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgb(228, 162, 81);
-    border-radius: 10%;
-    width: 40%;
-    height: 80%;
+    width: 450px;
 }
-.GetIP p{
-    font-size: 20px;
-    font-weight: 600;
+.GetIP h1{
+    font-size: 30px;
+    font-weight: 500px;
     margin-bottom: 20px;
-    color: #06048b;
+    color: #010116;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+}
+.GetIP h2{
+    font-size: 25px;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    color: #010116;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+.GetIP p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #06048b;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+}
+.GetIP img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

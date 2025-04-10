@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import './GetIP.css';
+import Logo from '../Assets/mylogo.jpg';
 
 
 const GetIP = () => {
@@ -38,6 +39,7 @@ const GetIP = () => {
 
   return (
     <div className='GetIP'>
+        <img src={Logo} alt="IP Icon" />
         <h1>Your IP Address</h1>
         <p>IPv4: {ip}</p>
         <h2>Geo Information</h2>
